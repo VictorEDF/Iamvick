@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif, serif;
+}
+
+header {
+  background: grey;
+  text-align: center;
+  padding: 10px;
+}
+
+header ul {
+  position: relative;
+  right: 0;
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white
+}
