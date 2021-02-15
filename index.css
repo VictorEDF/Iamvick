@@ -1,25 +1,205 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: sans-serif, serif;
+  margin: 0;
 }
 
-header {
-  background: grey;
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  padding: 10pt;
+  background: #353512;
+  color: lightcyan;
+  display: flex;
+  justify-content: space-between;
+  z-index: 300;
+}
+
+#Logo-holder {
+  margin: 6px;
+}
+ nav ul {
+   display: flex;
+   margin-top: -20px;
+ }
+ nav ul li {
+   margin: 30px;
+   list-style: none;
+ }
+ nav ul li a {
+   text-decoration: none;
+   color: lightcyan;
+ }
+ #Header {
+   margin-left: 250px;
+   text-align: center;
+ }
+#Red-back {
+  background: red;
+  padding: 20px;
+}
+#Green-back {
+  background: green;
+  padding: 20px;
+}
+#Menu {
+  position: fixed;
+  top: 100px;
+  background: #b9b94a;
   text-align: center;
-  padding: 10px;
+  width: 100%;
+  height: auto;
+  z-index: 300;
 }
-
-header ul {
-  position: relative;
-  right: 0;
-  display: inline-block;
+#Menu ul {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-header ul li {
-  display: inline-block;
+#Menu ul li {
+  list-style: none;
 }
-
-header ul li a {
+#Menu ul li a {
   text-decoration: none;
+  color: lightcyan;
+  text-transform: uppercase;
+  font-size: 15pt;
+}
+article {
+  position: relative;
+  padding: 30px 0px 30px 0px;
+  background: #865d5d;
+}
+#Home {
+  display: block;
+  font-size: 25pt;
+  position: relative;
+  margin: -10px 10px 0px 10px;
+  background: lightgrey;
+  padding: 120px 0px 0px 0px;
+  height: 100vh;
+  border-radius: 10px;
+  text-align: center;
+}
+.quote {
+  font-size: 20pt;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0px 20px 10px 0px;
+}
+#Bio {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-size: 15pt;
+  border-radius: 10px;
+  background: azure;
+  padding: 20px 10px 10px 20px;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+}
+#Thumbnail {
+  float: left;
+  margin: 0px 0px 100px 0px;
+  border: dotted 1px black;
+  border-radius: 50%;
+}
+.clear {
+  clear: both;
+}
+#Bio ul li {
+  list-style: circle inside;
+}
+#Section-header {
+  background: white;
+  padding: 3px;
+  border: 1px dashed black;
+  font-style: italic;
+  font-size: 20pt;
+  box-shadow: 4px 4px 2px rgb(140, 140, 201);
+  text-shadow: 5px 5px 2px gray;
+}
+#Skills {
+  margin: 10px 2px;
+  padding: 10px 5px;
+  background: grey;
+  border-radius: 20px;
+}
+#d-space {
+  display: flex;
+  justify-content: center;
+  background: white;
+  width: 100%;
+  padding: 20px;
+  margin: 0px 0px 10px 0px;
+  height: auto;
+}
+#Holder-1 {
+  background: radial-gradient(circle, salmon 30%, rgb(241, 33, 10) 70%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#Holder-2 {
+  background: radial-gradient(circle, lightblue 30%, rgb(13, 183, 240) 70%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#Holder-3 {
+  background: radial-gradient(circle, rgb(90, 122, 30) 30%, rgb(218, 241, 10) 70%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+#table, th, tr, td{
+  border: 1px solid black;
+  width: 50%;
+  background: white;
+}
+#XP {
+  margin: 10px 2px;
+  padding: 10px 5px;
+  border-radius: 20px;
+  background: yellow;
+}
+#Projects {
+  margin: 10px 2px;
+  padding: 10px 5px;
+  background:rgb(90, 122, 30);
+  border-radius: 20px;
+}
+#Projects button {
   cursor: pointer;
-  color: white
+}
+#Projects button:hover {
+  background: black;
+  color: white;
+}
+footer {
+  margin: 0px 0px 0px 0px;
+  padding: 20px;
+  background: black;
+  color: white;
 }

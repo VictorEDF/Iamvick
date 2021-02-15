@@ -5,17 +5,120 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="index.css" type="text/css">
-  <title>Document</title>
+  <title>Portfolio Setup</title>
 </head>
 <body>
-  <header>
-    <h1>CODE WORLD</h1>
-    <p>...Welcome to my world of beauty<br>
-    I am Victor</p>
-    <ul>
-      <li> <a href="#">About</a> </li>
-      <li> <a href="#">Contact Me</a> </li>
+  <nav>
+    <div id="Logo-holder"><img src="Some-image.jpg" alt="Some logo" /></div>
+    <div id="Header">
+      <h1><span id="Red-back">TECH</span><span id="Green-back">WORLD</span></h1>
+      <p>...Welcome to a world of Innovation</p>
+    </div>
+     <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
     </ul>
-  </header>
+  </nav>
+  <div id="Menu">
+    <ul>
+      <li><a href="#Bio">Biography</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#XP">Experience</a></li>
+      <li><a href="#Projects">Projects</a></li>
+    </ul>
+  </div>
+  <article>
+    <section id="Home">
+        <h3>Hello World</h3>
+        <p>An aspiring web developer,<br/>
+        and this is my first webpage.</p>
+        <p class="quote"><i>...Making a difference</i></p>
+    </section> 
+    <section id="Bio">
+         <img src="" alt="My-id" id="Thumbnail" /><br class="clear" />
+         <h5 id="Section-header">ABOUT ME</h5>
+         <p>I am just a simple guy looking to test his skills in technical abilities and yeah, that is just the summary of how I ended up in the world of <strong>TECH</strong></p>
+         <p>Educational qualification as of yet, are still <strong>:</strong></p>
+         <ul>
+          <li>FSLC</li>
+          <li>SSCE</li>
+         </ul> 
+        <p>Yeah, I know, that's kinda loose right?<br/>
+        but it is what it is you know, all college plans are on hold until the <strong>FULL-STACK GOAL</strong> is achieved.</p>
+        <p>Without further ado that would be all about my <i>BIOGRAPHY</i>.</p>
+    </section>
+    <section id="Skills">
+        <h5 id="Section-header">SKILLS</h5>
+        <p>So far I've been able to get my hands on the <i>2</i> core programming technologies, <strong>HTML</strong> and <strong>CSS</strong> and this webpage build right now is just to showcase my strength in these technologies. </p>
+        <p>I've also had encounters with real time programmming lanmguages like <strong>Javascript</strong> of which I will be implementing in my Future projects very soonest.</p>
+        <p>Further knowledge of Libraries like <strong>REACT</strong> has also been acquired, and will be showcased by building some projects very soon as well. </p>
+        <p>So stay tuned as I explore the world of programming and like earlier said <i>Make an impact on the world</i>.</p>
+        <div id="d-space">
+          <div id="Holder-1"><p>html</p></div>
+          <div id="Holder-2"><p>css</p></div>
+          <div id="Holder-3"><p>javascript</p></div>
+        </div>
+      <table id="table">
+        <tr>
+          <th>SKILL</th>
+          <th>RATE</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>90%</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>90%</td>
+        </tr>
+        <tr>
+          <td>JAVASCRIPT</td>
+          <td>90%</td>
+        </tr>
+        <tr>
+          <td>REACT</td>
+          <td>50%</td>
+        </tr>
+      </table>
+    </section>
+    <section id="XP">
+      <div>
+        <h5 id="Section-header">EXPERIENCE</h5>
+        <p>There are no tangible experiences to show just yet<br/>
+        Hoping to get some work experience soon</p>
+      </div>
+    </section>
+    <section id="Projects">
+      <div>
+        <h5 id="Section-header">PROJECTS</h5>
+        <p>As there are no projects to show yet except this one.<br>
+        I am going to stick to the initial plan that the button below takes you back to the home of this page as this is the only project created so far.</p>
+        <a href="#Home"><button>Thanks</button></a>
+        <p>Now this button might take you to more beautiful places in the nearest future</p>
+      </div>
+    </section>
+  </article>
+  <footer>
+    <p>Thank you for taking the time to go through my very first code writing which is also my PORTFOLIO</p>
+    <p>You can contact me via these handles</p>
+    <div id="Contacts">
+      <div id="Holder"></div>
+      <div id="Holder"></div>
+      <div id="Holder"></div>
+    </div>
+    <form action="index.html" method="GET">
+      <input type="text" placeholder="Please your comments here" required/>
+      <button type="submit">Submit</button>
+      <br/>
+      <label for="Male">
+        <input id="Male" type="radio" name="Male-Female" value="Male" checked>Male
+      </label>
+      <label for="Female">
+        <input id="Female" type="radio" name="Male-Female" value="Female"/>Female
+      </label>
+    </form>
+    <p>&copy;Feb 2021</p>
+  </footer>
 </body>
 </html>
